@@ -1,11 +1,12 @@
 function updateMenu() {
     const about = DeepX.MdBlogs.setElementText("topmenu-about", "about");
-    if (about !== "关于") return;
+    if (about !== "关于") return about;
     DeepX.MdBlogs.setElementProp("topmenu-stories", null, "故事");
     DeepX.MdBlogs.setElementProp("topmenu-games", null, "小游戏");
+    return about;
 }
 
-function init(group) {
+function initStories() {
     DeepX.MdBlogs.render("blog_content", "./config.json", {
         title: true,
         onselect(ev) {
@@ -19,7 +20,7 @@ function init(group) {
 }
 
 function initHome() {
-    updateMenu();
+    const about = updateMenu();
     const title = {
         tagName: "h1",
         children: [{
@@ -27,7 +28,7 @@ function initHome() {
             props: {
                 href: "./fairy-tales/"
             },
-            children: "Fairy Tales"
+            children: about === "关于" ? "童话故事" : "Fairy Tales"
         }]
     };
     const context = Hje.render(document.getElementById("blog_content"), {

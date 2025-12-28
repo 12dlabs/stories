@@ -4,27 +4,21 @@
     "name#zh": "童话故事",
     "docs": [
         {
-            "name": "Little Red Riding Hood",
-            "name#zh": "小红帽",
-            "dir": "little-red-riding-hood",
+            "name": "The Adventures of Aladdin",
+            "name#zh": "阿拉丁历险记",
+            "dir": "the-adventures-of-aladdin",
             "file": true,
             "data": {
-                "book": [
-                    "The Tales of Mother Goose, 1697",
-                    "Grimms's Fairy Tales, 1812"
-                ]
+                "book": ["Grimms's Fairy Tales, 1812"]
             }
         },
         {
-            "name": "Snow White",
-            "name#zh": "白雪公主",
-            "dir": "little-red-riding-hood",
+            "name": "Briar-Rose",
+            "name#zh": "睡美人",
+            "dir": "briar-rose",
             "file": true,
             "data": {
-                "book": [
-                    "The Tales of Mother Goose, 1697",
-                    "Grimms's Fairy Tales, 1812"
-                ]
+                "book": ["Grimms's Fairy Tales, 1812"]
             }
         },
         {
@@ -39,15 +33,6 @@
                     "The Tales of Mother Goose, 1697",
                     "Grimms's Fairy Tales, 1812"
                 ]
-            }
-        },
-        {
-            "name": "Briar-Rose",
-            "name#zh": "睡美人",
-            "dir": "briar-rose",
-            "file": true,
-            "data": {
-                "book": ["Grimms's Fairy Tales, 1812"]
             }
         },
         {
@@ -67,6 +52,60 @@
             "data": {
                 "book": ["Grimms's Fairy Tales, 1812"]
             }
+        },
+        {
+            "name": "Jack and the Beanstalk",
+            "name#zh": "杰克与魔豆",
+            "dir": "jack-and-the-beanstalk",
+            "file": true,
+            "data": {
+                "book": [{
+                    "name": "The Story of Jack Spriggins and the Enchanted Bean",
+                    "year": 1734
+                }]
+            }
+        },
+        {
+            "name": "Little Red Riding Hood",
+            "name#zh": "小红帽",
+            "dir": "little-red-riding-hood",
+            "file": true,
+            "data": {
+                "book": [
+                    "The Tales of Mother Goose, 1697",
+                    "Grimms's Fairy Tales, 1812"
+                ]
+            }
+        },
+        {
+            "name": "Rikki-Tikki-Tavi",
+            "name#zh": "里基-蒂基-塔维",
+            "dir": "rikki-tikki-tavi",
+            "file": true,
+            "author": [{ "name": "Rudyard Kipling", "name#zh": "鲁德亚德·吉卜林" }],
+            "data": {
+                "book": [{
+                    "year": 1894
+                }]
+            }
+        },
+        {
+            "name": "Snow White",
+            "name#zh": "白雪公主",
+            "dir": "snow-white",
+            "file": true,
+            "data": {
+                "book": [
+                    "The Tales of Mother Goose, 1697",
+                    "Grimms's Fairy Tales, 1812"
+                ]
+            }
+        },
+        {
+            "name": "St. George and the Dragon",
+            "name#zh": "圣乔治和龙",
+            "dir": "st-george-and-the-dragon",
+            "file": true
         },
         {
             "name": "The Three Little Pigs",
@@ -92,36 +131,6 @@
             "data": {
                 "book": [{ "year": 1922 }]
             }
-        },
-        {
-            "name": "Jack and the Beanstalk",
-            "name#zh": "杰克与魔豆",
-            "dir": "jack-and-the-beanstalk",
-            "file": true,
-            "data": {
-                "book": [{
-                    "name": "The Story of Jack Spriggins and the Enchanted Bean",
-                    "year": 1734
-                }]
-            }
-        },
-        {
-            "name": "Rikki-Tikki-Tavi",
-            "name#zh": "里基-蒂基-塔维",
-            "dir": "rikki-tikki-tavi",
-            "file": true,
-            "author": [{ "name": "Rudyard Kipling", "name#zh": "鲁德亚德·吉卜林" }],
-            "data": {
-                "book": [{
-                    "year": 1894
-                }]
-            }
-        },
-        {
-            "name": "St. George and the Dragon",
-            "name#zh": "圣乔治和龙",
-            "dir": "st-george-and-the-dragon",
-            "file": true
         }
     ],
     "$defs": {
