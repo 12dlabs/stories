@@ -1,0 +1,142 @@
+{
+    "$schema": "https://cdn.jsdelivr.net/npm/hje@2.4.4/dist/mdblogs.schema.json",
+    "name": "Fairy Tales",
+    "name#zh": "童话故事",
+    "docs": [
+        {
+            "name": "Little Red Riding Hood",
+            "name#zh": "小红帽",
+            "dir": "little-red-riding-hood",
+            "file": true,
+            "data": {
+                "book": [
+                    "The Tales of Mother Goose, 1697",
+                    "Grimms's Fairy Tales, 1812"
+                ]
+            }
+        },
+        {
+            "name": "Snow White",
+            "name#zh": "白雪公主",
+            "dir": "little-red-riding-hood",
+            "file": true,
+            "data": {
+                "book": [
+                    "The Tales of Mother Goose, 1697",
+                    "Grimms's Fairy Tales, 1812"
+                ]
+            }
+        },
+        {
+            "name": "Cinderella",
+            "name#fr": "Cendrillon",
+            "name#zh": "灰姑娘",
+            "dir": "cinderella",
+            "file": true,
+            "data": {
+                "book": [
+                    { "name": "Pentamerone", "name#zh": "五日谈", "year": 1635 },
+                    "The Tales of Mother Goose, 1697",
+                    "Grimms's Fairy Tales, 1812"
+                ]
+            }
+        },
+        {
+            "name": "Briar-Rose",
+            "name#zh": "睡美人",
+            "dir": "briar-rose",
+            "file": true,
+            "data": {
+                "book": ["Grimms's Fairy Tales, 1812"]
+            }
+        },
+        {
+            "name": "Death's Messengers",
+            "name#zh": "死神的使者",
+            "dir": "deaths-messengers",
+            "file": true,
+            "data": {
+                "book": ["Grimms's Fairy Tales, 1812"]
+            }
+        },
+        {
+            "name": "Hansel and Gretel",
+            "name#zh": "糖果屋",
+            "dir": "hansel-and-gretel",
+            "file": true,
+            "data": {
+                "book": ["Grimms's Fairy Tales, 1812"]
+            }
+        },
+        {
+            "name": "The Three Little Pigs",
+            "name#zh": "三只小猪",
+            "dir": "the-three-little-pigs",
+            "file": true
+        },
+        {
+            "name": "The Velveteen Rabbit",
+            "name#zh": "平绒兔",
+            "dir": "the-velveteen-rabbit",
+            "file": true,
+            "author": {
+                "author": [{
+                    "name": "Margery Williams Bianco",
+                    "name#zh": "玛格莉·威廉姆斯·比安科"
+                }],
+                "illustrator": [{
+                    "name": "William Nicholson",
+                    "name#zh": "威廉·尼科尔森"
+                }]
+            },
+            "data": {
+                "book": [{ "year": 1922 }]
+            }
+        },
+        {
+            "name": "Jack and the Beanstalk",
+            "name#zh": "杰克与魔豆",
+            "dir": "jack-and-the-beanstalk",
+            "file": true,
+            "data": {
+                "book": [{
+                    "name": "The Story of Jack Spriggins and the Enchanted Bean",
+                    "year": 1734
+                }]
+            }
+        },
+        {
+            "name": "Rikki-Tikki-Tavi",
+            "name#zh": "里基-蒂基-塔维",
+            "dir": "rikki-tikki-tavi",
+            "file": true,
+            "author": [{ "name": "Rudyard Kipling", "name#zh": "鲁德亚德·吉卜林" }],
+            "data": {
+                "book": [{
+                    "year": 1894
+                }]
+            }
+        },
+        {
+            "name": "St. George and the Dragon",
+            "name#zh": "圣乔治和龙",
+            "dir": "st-george-and-the-dragon",
+            "file": true
+        }
+    ],
+    "$defs": {
+        "contributors": [
+            { "name": "Kingcean Tuan", "url": "https://github.com/kingcean" },
+            { "name": "Jacob Grimm", "name#zh": "雅各布·格林" },
+            { "name": "Wilhelm Grimm", "name#zh": "威廉·格林" },
+            { "name": "Charles Perrault", "name#zh": "沙尔·贝洛" }
+        ],
+        "keywords": [
+            { "name": "Fairy Tale", "name#zh": "童话故事", "value": "fairy-tale" }
+        ],
+        "books": [
+            { "name": "The Tales of Mother Goose", "name#fr": "Les contes de la Mere L'oye", "name#zh": "鹅妈妈的故事", "year": 1697, "author": ["Charles Perrault"] },
+            { "name": "Grimms's Fairy Tales", "name#de": "Kinder-und Hausmärchen", "name#zh": "格林童话", "year": 1812, "author": ["Jacob Grimm", "Wilhelm Grimm"] }
+        ]
+    }
+}

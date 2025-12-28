@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="./images/bg/poster.jpg">
+    <title>Stories - 12D Labs</title>
+    <link href="https://cdn.jsdelivr.net/npm/hje@2.4.4/docs/css/site.org.css" rel="stylesheet" />
+    <link href="./css/current.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/marked@16.2.1/lib/marked.umd.js" ></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hje@2.4.4/docs/js/mdblogs.js" ></script>
+    <script type="text/javascript" src="./js/current.js" ></script>
+    <style type="text/css">
+    body > header + section > h1:first-child {
+        font-weight: normal; position: relative;
+    }
+    #blog_content {
+        display: block; min-height: 300px; padding-top: 0; grid-template-columns: auto; margin-bottom: 20px;
+    }
+    #blog_content > h1:first-child > a, #blog_content > h1:first-child > a:visited {
+        color: #D3D3D3; text-decoration: none;
+    }
+    #blog_content > h1:first-child > a:hover {
+        color: #9EF; text-decoration: none;
+    }
+    #blog_content > h1:first-child > a:active {
+        color: #8CE; text-decoration: none;
+    }
+    #blog_content > h1:first-child > a:last-child::after {
+        content: ">"; color: #888; margin-left: 10px; transition: 0.2s;
+    }
+    #blog_content > h1:first-child:hover > a:last-child::after {
+        margin-left: 12px;
+    }
+    #blog_content > h1:first-child:active > a:last-child::after {
+        margin-left: 11px;
+    }
+    section > ul.link-tile-compact, section > ul.link-tile-compact > li {
+        list-style: none;
+    }
+    section > ul.link-tile-compact > li > a > svg, section > ul.link-tile-compact > li > a > span {
+        vertical-align: middle;
+    }
+    section > ul.link-tile-compact > li > a > svg:first-child {
+        fill: #CCC; margin-right: 10px;
+    }
+    </style>
+</head>
+<body onload="initHome()">
+    <header>
+        <section>
+            <h1><a href="https://12dlabs.github.io"><strong>12D</strong><span>Labs</span></a></h1>
+            <ul>
+                <li>
+                    <a href="https://sth.violty.com/"><code>sth</code></a>
+                </li>
+                <li class="state-sel">
+                    <a id="topmenu-stories" href="https://12dlabs.github.io/stories">Stories</a>
+                </li>
+                <li>
+                    <a id="topmenu-games" href="https://12dlabs.github.io/games">Games</a>
+                </li>
+                <li>
+                    <a id="topmenu-about" href="https://12dlabs.github.io/about">About</a>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <section id="blog_content" ></section>
+    <section>
+        <h2>GitHub</h2>
+        <section>
+            <ul class="link-tile-compact">
+                <li>
+                    <a href="https://github.com/12dlabs/stories">
+                        <svg width="16" height="16" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg><span><span>12dlabs/</span>stories</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section class="x-part-bottom" >
+        <div><span>&nbsp;</span></div>
+    </section>
+    <footer>
+        <section>
+            <div class="x-copyright">
+                <strong>Well-known Stories</strong><br />
+                <span>CC0</span>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
