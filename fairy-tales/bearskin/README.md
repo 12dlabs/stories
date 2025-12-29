@@ -1,4 +1,4 @@
-THERE was once a young fellow who enlisted as a soldier, conducted himself
+There was once a young fellow who enlisted as a soldier, conducted himself
 bravely, and was always the foremost when it rained bullets. So long as
 the war lasted, all went well, but when peace was made, he received his
 dismissal, and the captain said he might go where he liked. His parents

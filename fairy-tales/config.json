@@ -6,7 +6,7 @@
         {
             "name": "Allerleirauh",
             "name#zh": "千皮兽",
-            "dir": "Allerleirauh",
+            "dir": "allerleirauh",
             "file": true,
             "data": {
                 "book": [
@@ -221,6 +221,7 @@
         },
         {
             "name": "Fitcher's Bird",
+            "name#zh": "费切尔的怪鸟",
             "dir": "fitchers-bird",
             "file": true,
             "data": {
@@ -231,6 +232,7 @@
         },
         {
             "name": "Frau Trude",
+            "name#zh": "特鲁德太太",
             "dir": "frau-trude",
             "file": true,
             "data": {
@@ -241,6 +243,7 @@
         },
         {
             "name": "Frederick and Catherine",
+            "name#zh": "弗雷德里克和凯瑟琳",
             "dir": "frederick-and-catherine",
             "file": true,
             "data": {
@@ -2208,6 +2211,7 @@
         },
         {
             "name": "Thumbling as Journeyman",
+            "name#zh": "大拇哥游记",
             "dir": "thumbling-as-journeyman",
             "file": true,
             "data": {
