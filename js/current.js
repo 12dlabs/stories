@@ -14,6 +14,30 @@ function initStories() {
             const article = ev.article;
             const model = ev.children;
             if (!article || !model) return;
+            let insertion = 0;
+            for (let i = 0; i < model.length; i++) {
+                insertion++;
+                if (model[i] && model[i].tagName === "main") break;
+            }
+
+            if (!article.data || !article.data.book) return;
+            const books = (article.data.book instanceof Array ? article.data.book : [article.data.book]).map(function (book) {
+                if (!book) return undefined;
+                if (typeof book === "string") {
+                }
+
+                return undefined;
+            }).filter(function (book) {
+                return book;
+            });
+            if (books.length > 0) model.splice(insertion, 0, {
+                tagName: "section",
+                styleRefs: "x-part-blog-related",
+                children: [{
+                    tagName: "ul",
+                    children: books
+                }]
+            });
         }
     });
     updateMenu();

@@ -493,8 +493,10 @@
         },
         {
             "name": "Master Pfriem (Master Cobbler's Awl)",
-            "dir": "master-pfriem-master-cobblers-awl",
+            "name#zh": "鞋匠师傅",
+            "dir": "master-pfriem",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -503,6 +505,7 @@
         },
         {
             "name": "Mother Holle",
+            "name#zh": "霍勒大妈",
             "dir": "mother-holle",
             "file": true,
             "data": {
@@ -513,6 +516,7 @@
         },
         {
             "name": "Odds And Ends",
+            "name#zh": "扔掉的亚麻",
             "dir": "odds-and-ends",
             "file": true,
             "data": {
@@ -523,6 +527,7 @@
         },
         {
             "name": "Old Hildebrand",
+            "name#zh": "老希尔德布朗",
             "dir": "old-hildebrand",
             "file": true,
             "data": {
@@ -533,6 +538,7 @@
         },
         {
             "name": "Old Rinkrank",
+            "name#zh": "老林克兰克",
             "dir": "old-rinkrank",
             "file": true,
             "data": {
@@ -543,6 +549,7 @@
         },
         {
             "name": "Old Sultan",
+            "name#zh": "老苏丹",
             "dir": "old-sultan",
             "file": true,
             "data": {
@@ -553,6 +560,7 @@
         },
         {
             "name": "One-eye, Two-eyes, and Three-eyes",
+            "name#zh": "一只眼、两只眼和三只眼",
             "dir": "one-eye-two-eyes-and-three-eyes",
             "file": true,
             "data": {
@@ -563,6 +571,7 @@
         },
         {
             "name": "Our Lady's Child",
+            "name#zh": "圣母的孩子",
             "dir": "our-ladys-child",
             "file": true,
             "data": {
@@ -573,6 +582,7 @@
         },
         {
             "name": "Our Lady's Little Glass",
+            "name#zh": "圣母的小酒杯",
             "dir": "our-ladys-little-glass",
             "file": true,
             "data": {
@@ -583,6 +593,7 @@
         },
         {
             "name": "Rapunzel",
+            "name#zh": "莴苣姑娘",
             "dir": "rapunzel",
             "file": true,
             "data": {
@@ -605,6 +616,7 @@
         },
         {
             "name": "Rumpelstiltskin",
+            "name#zh": "侏儒妖",
             "dir": "rumpelstiltskin",
             "file": true,
             "data": {
@@ -615,6 +627,7 @@
         },
         {
             "name": "Sharing Joy and Sorrow",
+            "name#zh": "同甘共苦",
             "dir": "sharing-joy-and-sorrow",
             "file": true,
             "data": {
@@ -625,6 +638,7 @@
         },
         {
             "name": "Simeli Mountain",
+            "name#zh": "希默里山",
             "dir": "simeli-mountain",
             "file": true,
             "data": {
@@ -693,6 +707,7 @@
         },
         {
             "name": "Sweetheart Roland",
+            "name#zh": "甜心罗兰",
             "dir": "sweetheart-roland",
             "file": true,
             "data": {
@@ -703,6 +718,7 @@
         },
         {
             "name": "Sweet Porridge",
+            "name#zh": "甜粥",
             "dir": "sweet-porridge",
             "file": true,
             "data": {
@@ -722,6 +738,7 @@
         },
         {
             "name": "The Aged Mother",
+            "name#zh": "老妈妈",
             "dir": "the-aged-mother",
             "file": true,
             "data": {
@@ -742,6 +759,7 @@
         },
         {
             "name": "The Bittern and the Hoopoe",
+            "name#zh": "鸬鹚和戴胜",
             "dir": "the-bittern-and-the-hoopoe",
             "file": true,
             "data": {
@@ -752,6 +770,7 @@
         },
         {
             "name": "The Blue Light",
+            "name#zh": "蓝灯",
             "dir": "the-blue-light",
             "file": true,
             "data": {
@@ -762,6 +781,7 @@
         },
         {
             "name": "The Boots of Buffalo-Leather",
+            "name#zh": "牛皮靴",
             "dir": "the-boots-of-buffalo-leather",
             "file": true,
             "data": {
@@ -2230,6 +2250,7 @@
         },
         {
             "name": "The Wonderful Musician",
+            "name#zh": "令人叫绝的乐师",
             "dir": "the-wonderful-musician",
             "file": true,
             "data": {
@@ -2240,6 +2261,7 @@
         },
         {
             "name": "The Young Giant",
+            "name#zh": "年轻的巨人",
             "dir": "the-young-giant",
             "file": true,
             "data": {
