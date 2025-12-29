@@ -8,6 +8,8 @@
             "name#zh": "千皮兽",
             "dir": "allerleirauh",
             "file": true,
+            "file#de": "de.md",
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -85,6 +87,7 @@
             "name#zh": "灰姑娘",
             "dir": "cinderella",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     { "name": "Pentamerone", "name#zh": "五日谈", "year": 1635 },
@@ -254,6 +257,7 @@
         },
         {
             "name": "Fundevogel (Bird-foundling)",
+            "name#zh": "幸运小鸟",
             "dir": "fundevogel-bird-foundling",
             "file": true,
             "data": {
@@ -264,6 +268,7 @@
         },
         {
             "name": "Gambling Hansel",
+            "name#zh": "赌鬼汉塞尔",
             "dir": "gambling-hansel",
             "file": true,
             "data": {
@@ -274,6 +279,7 @@
         },
         {
             "name": "Godfather Death",
+            "name#zh": "死神教父",
             "dir": "godfather-death",
             "file": true,
             "data": {
@@ -284,8 +290,10 @@
         },
         {
             "name": "God's Food",
+            "name#zh": "上帝的食物",
             "dir": "gods-food",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -294,6 +302,7 @@
         },
         {
             "name": "Going A-Travelling",
+            "name#zh": "旅行去",
             "dir": "going-a-travelling",
             "file": true,
             "data": {
@@ -313,8 +322,10 @@
         },
         {
             "name": "Hans in Luck",
+            "name#zh": "称心如意的汉斯",
             "dir": "hans-in-luck",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -323,6 +334,7 @@
         },
         {
             "name": "Hans Married",
+            "name#zh": "汉斯娶亲",
             "dir": "hans-married",
             "file": true,
             "data": {
@@ -333,8 +345,10 @@
         },
         {
             "name": "Hans the Hedgehog",
+            "name#zh": "刺猬汉斯",
             "dir": "hans-the-hedgehog",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -343,6 +357,7 @@
         },
         {
             "name": "Herr Korbes",
+            "name#zh": "海尔·柯贝斯",
             "dir": "herr-korbes",
             "file": true,
             "data": {
@@ -353,8 +368,10 @@
         },
         {
             "name": "How Six Men Got on in the World",
+            "name#zh": "六个人走遍天下",
             "dir": "how-six-men-got-on-in-the-world",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -363,6 +380,7 @@
         },
         {
             "name": "Iron John",
+            "name#zh": "铁约翰",
             "dir": "iron-john",
             "file": true,
             "data": {
@@ -385,6 +403,7 @@
         },
         {
             "name": "Jorinda and Joringel",
+            "name#zh": "约丽丹和约雷德尔",
             "dir": "jorinda-and-joringel",
             "file": true,
             "data": {
@@ -395,6 +414,7 @@
         },
         {
             "name": "King Thrushbeard",
+            "name#zh": "画眉嘴国王",
             "dir": "king-thrushbeard",
             "file": true,
             "data": {
@@ -405,6 +425,7 @@
         },
         {
             "name": "Knoist and his Three Sons",
+            "name#zh": "克诺伊斯特和他的三个儿子",
             "dir": "knoist-and-his-three-sons",
             "file": true,
             "data": {
@@ -415,6 +436,7 @@
         },
         {
             "name": "Lazy Harry",
+            "name#zh": "懒鬼哈利和胖婆特琳娜",
             "dir": "lazy-harry",
             "file": true,
             "data": {
@@ -425,6 +447,7 @@
         },
         {
             "name": "Lean Lisa",
+            "name#zh": "瘦子丽沙",
             "dir": "lean-lisa",
             "file": true,
             "data": {
@@ -435,6 +458,7 @@
         },
         {
             "name": "Little Brother and Little Sister",
+            "name#zh": "小弟弟和小姐姐",
             "dir": "little-brother-and-little-sister",
             "file": true,
             "data": {
@@ -448,6 +472,7 @@
             "name#zh": "小红帽",
             "dir": "little-red-riding-hood",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "The Tales of Mother Goose, 1697",
@@ -457,6 +482,7 @@
         },
         {
             "name": "Maid Maleen",
+            "name#zh": "梅林姑娘",
             "dir": "maid-maleen",
             "file": true,
             "data": {
@@ -612,15 +638,17 @@
             "name#zh": "白雪公主",
             "dir": "snow-white",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [ "The Tales of Mother Goose, 1697", "Grimms's Fairy Tales, 1812" ]
             }
         },
         {
             "name": "Snow-White and Rose-Red",
-            "name#zh": "雪白和玫瑰红",
+            "name#zh": "白雪和红玫",
             "dir": "snow-white-and-rose-red",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": ["Grimms's Fairy Tales, 1812"]
             }
@@ -1576,6 +1604,7 @@
         },
         {
             "name": "The Sea-Hare",
+            "name#zh": "海兔",
             "dir": "the-sea-hare",
             "file": true,
             "data": {
@@ -1586,8 +1615,10 @@
         },
         {
             "name": "The Seven Ravens",
+            "name#zh": "七只乌鸦",
             "dir": "the-seven-ravens",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -1596,6 +1627,7 @@
         },
         {
             "name": "The Seven Swabians",
+            "name#zh": "七个斯瓦比亚人",
             "dir": "the-seven-swabians",
             "file": true,
             "data": {
@@ -1606,6 +1638,7 @@
         },
         {
             "name": "The Shepherd Boy",
+            "name#zh": "聪明的小牧童",
             "dir": "the-shepherd-boy",
             "file": true,
             "data": {
@@ -1786,6 +1819,7 @@
         },
         {
             "name": "The Thief and his Master",
+            "name#zh": "智者神偷",
             "dir": "the-thief-and-his-master",
             "file": true,
             "data": {
@@ -1796,6 +1830,7 @@
         },
         {
             "name": "The Three Apprentices",
+            "name#zh": "三个学徒",
             "dir": "the-three-apprentices",
             "file": true,
             "data": {
@@ -1806,6 +1841,7 @@
         },
         {
             "name": "The Three Army-Surgeons",
+            "name#zh": "三个军医",
             "dir": "the-three-army-surgeons",
             "file": true,
             "data": {
@@ -1816,6 +1852,7 @@
         },
         {
             "name": "The Three Black Princesses",
+            "name#zh": "三个黑公主",
             "dir": "the-three-black-princesses",
             "file": true,
             "data": {
@@ -1826,6 +1863,7 @@
         },
         {
             "name": "The Three Brothers",
+            "name#zh": "三兄弟",
             "dir": "the-three-brothers",
             "file": true,
             "data": {
@@ -1836,6 +1874,7 @@
         },
         {
             "name": "The Three Feathers",
+            "name#zh": "三片羽毛",
             "dir": "the-three-feathers",
             "file": true,
             "data": {
@@ -1846,6 +1885,7 @@
         },
         {
             "name": "The Three Green Twigs",
+            "name#zh": "三根绿枝",
             "dir": "the-three-green-twigs",
             "file": true,
             "data": {
@@ -1856,6 +1896,8 @@
         },
         {
             "name": "The Three Languages",
+            "name#zh": "三种语言",
+            "name#ja": "三つの言葉",
             "dir": "the-three-languages",
             "file": true,
             "data": {
@@ -1866,6 +1908,7 @@
         },
         {
             "name": "The Three Little Birds",
+            "name#zh": "三只小鸟",
             "dir": "the-three-little-birds",
             "file": true,
             "data": {
@@ -1876,6 +1919,7 @@
         },
         {
             "name": "The Three Little Men in the Wood",
+            "name#zh": "森林中的三个小矮人",
             "dir": "the-three-little-men-in-the-wood",
             "file": true,
             "data": {
@@ -1892,6 +1936,7 @@
         },
         {
             "name": "The Three Sluggards",
+            "name#zh": "三个懒汉",
             "dir": "the-three-sluggards",
             "file": true,
             "data": {
@@ -1902,6 +1947,7 @@
         },
         {
             "name": "The Three Snake-Leaves",
+            "name#zh": "三片蛇叶",
             "dir": "the-three-snake-leaves",
             "file": true,
             "data": {
@@ -1912,6 +1958,7 @@
         },
         {
             "name": "The Three Sons of Fortune",
+            "name#zh": "三个幸运儿",
             "dir": "the-three-sons-of-fortune",
             "file": true,
             "data": {
@@ -1922,6 +1969,7 @@
         },
         {
             "name": "The Three Spinners",
+            "name#zh": "三个纺纱女",
             "dir": "the-three-spinners",
             "file": true,
             "data": {
@@ -1932,6 +1980,7 @@
         },
         {
             "name": "The True Sweethearts",
+            "name#zh": "真爱",
             "dir": "the-true-sweethearts",
             "file": true,
             "data": {
