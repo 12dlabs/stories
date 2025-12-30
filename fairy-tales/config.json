@@ -1,5 +1,5 @@
 {
-    "$schema": "https://cdn.jsdelivr.net/npm/hje@2.4.4/dist/mdblogs.schema.json",
+    "$schema": "https://cdn.jsdelivr.net/npm/hje@2.4.5/dist/mdblogs.schema.json",
     "name": "Fairy Tales",
     "name#zh": "童话故事",
     "docs": [
@@ -792,6 +792,7 @@
         },
         {
             "name": "The Brave Little Tailor",
+            "name#zh": "勇敢的小裁缝",
             "dir": "the-brave-little-tailor",
             "file": true,
             "data": {
@@ -802,6 +803,7 @@
         },
         {
             "name": "The Bremen Town Musicians",
+            "name#zh": "当音乐家去",
             "dir": "the-bremen-town-musicians",
             "file": true,
             "data": {
@@ -812,8 +814,10 @@
         },
         {
             "name": "The Bright Sun Brings It to Light",
+            "name#zh": "清白的太阳揭露了真相",
             "dir": "the-bright-sun-brings-it-to-light",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -902,6 +906,7 @@
         },
         {
             "name": "The Dog and the Sparrow",
+            "name#zh": "狗和麻雀",
             "dir": "the-dog-and-the-sparrow",
             "file": true,
             "data": {
@@ -972,6 +977,7 @@
         },
         {
             "name": "The Fisherman and His Wife",
+            "name#zh": "渔夫和他的妻子",
             "dir": "the-fisherman-and-his-wife",
             "file": true,
             "data": {
@@ -982,6 +988,7 @@
         },
         {
             "name": "The Flail From Heaven",
+            "name#zh": "来自天堂的连枷",
             "dir": "the-flail-from-heaven",
             "file": true,
             "data": {
@@ -2285,6 +2292,7 @@
             "name#zh": "大拇哥游记",
             "dir": "thumbling-as-journeyman",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"

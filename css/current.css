@@ -1,0 +1,10 @@
+ul.x-part-article-books > li > span {
+    font-size: 14px;
+}
+ul.x-part-article-books > li > span:first-child {
+    font-size: 16px;
+}
+ul.x-part-article-books > li > span + span {
+    color: #888;
+    margin-left: 16px;
+}
