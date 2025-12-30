@@ -49,6 +49,7 @@ var PageCtrl;
                     return;
                 var article = ev.article;
                 var model = ev.children;
+                var localeOptions = ev.mkt == null ? undefined : { mkt: ev.mkt };
                 if (!article || !model)
                     return;
                 var books = formatBooks((_a = article.data) === null || _a === void 0 ? void 0 : _a.book, ev.defs("books"));
@@ -63,7 +64,7 @@ var PageCtrl;
                                 children: books.map(function (book) {
                                     var li = [{
                                             tagName: "span",
-                                            children: DeepX.MdBlogs.getLocaleProp(book)
+                                            children: DeepX.MdBlogs.getLocaleProp(book, null, localeOptions)
                                         }];
                                     if (book.year)
                                         li.push({
@@ -73,7 +74,7 @@ var PageCtrl;
                                     var authors = PageCtrl.getAuthors(book, allAuthorsRefs);
                                     if (authors.length > 0)
                                         li.push.apply(li, authors.map(function (author) {
-                                            return { tagName: "span", children: DeepX.MdBlogs.getLocaleProp(author) };
+                                            return { tagName: "span", children: DeepX.MdBlogs.getLocaleProp(author, null, localeOptions) };
                                         }));
                                     return {
                                         tagName: "li",
@@ -119,7 +120,7 @@ var PageCtrl;
         return about;
     }
     PageCtrl.updateMenu = updateMenu;
-    function getAuthors(book, refs) {
+    function getAuthors(book, refs, options) {
         var author = book === null || book === void 0 ? void 0 : book.author;
         if (!author)
             return [];
@@ -133,7 +134,7 @@ var PageCtrl;
             if (typeof item === "string") {
                 for (var i = 0; i < refs.length; i++) {
                     var ele = refs[i];
-                    if (ele.name === item || DeepX.MdBlogs.getLocaleProp(ele) === item || ele.email === item)
+                    if (ele.name === item || DeepX.MdBlogs.getLocaleProp(ele, null, options) === item || ele.email === item)
                         return ele;
                 }
                 var pos = item.indexOf("@");

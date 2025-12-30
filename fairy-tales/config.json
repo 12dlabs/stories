@@ -45,7 +45,7 @@
             "dir": "briar-rose",
             "file": true,
             "data": {
-                "book": ["Grimms's Fairy Tales, 1812"]
+                "book": ["The Tales of Mother Goose, 1697", "Grimms's Fairy Tales, 1812"]
             }
         },
         {
@@ -474,10 +474,7 @@
             "file": true,
             "file#zh": "zh.md",
             "data": {
-                "book": [
-                    "The Tales of Mother Goose, 1697",
-                    "Grimms's Fairy Tales, 1812"
-                ]
+                "book": ["The Tales of Mother Goose, 1697", "Grimms's Fairy Tales, 1812"]
             }
         },
         {
@@ -586,9 +583,18 @@
             "dir": "our-ladys-little-glass",
             "file": true,
             "data": {
-                "book": [
-                    "Grimms's Fairy Tales, 1812"
-                ]
+                "book": ["Grimms's Fairy Tales, 1812"]
+            }
+        },
+        {
+            "name": "Puss in Boots",
+            "name#fr": "Le Maître Chat ou le Chat Botté",
+            "name#zh": "穿靴子的猫",
+            "dir": "puss-in-boots",
+            "file": true,
+            "author": ["Charles Perrault"],
+            "data": {
+                "book": ["The Tales of Mother Goose, 1697"]
             }
         },
         {
@@ -597,9 +603,7 @@
             "dir": "rapunzel",
             "file": true,
             "data": {
-                "book": [
-                    "Grimms's Fairy Tales, 1812"
-                ]
+                "book": ["Grimms's Fairy Tales, 1812"]
             }
         },
         {
@@ -654,7 +658,7 @@
             "file": true,
             "file#zh": "zh.md",
             "data": {
-                "book": [ "The Tales of Mother Goose, 1697", "Grimms's Fairy Tales, 1812" ]
+                "book": ["The Tales of Mother Goose, 1697", "Grimms's Fairy Tales, 1812"]
             }
         },
         {
@@ -826,6 +830,7 @@
         },
         {
             "name": "The Crumbs on the Table",
+            "name#zh": "餐桌旁的惊讶",
             "dir": "the-crumbs-on-the-table",
             "file": true,
             "data": {
@@ -836,6 +841,7 @@
         },
         {
             "name": "The Crystal Ball",
+            "name#zh": "水晶球",
             "dir": "the-crystal-ball",
             "file": true,
             "data": {
@@ -846,6 +852,7 @@
         },
         {
             "name": "The Cunning Little Tailor",
+            "name#zh": "聪明的小裁缝",
             "dir": "the-cunning-little-tailor",
             "file": true,
             "data": {
@@ -856,6 +863,7 @@
         },
         {
             "name": "The Death of the Little Hen",
+            "name#zh": "小母鸡之死",
             "dir": "the-death-of-the-little-hen",
             "file": true,
             "data": {
@@ -866,6 +874,7 @@
         },
         {
             "name": "The Devil and his Grandmother",
+            "name#zh": "魔鬼和他的祖母",
             "dir": "the-devil-and-his-grandmother",
             "file": true,
             "data": {
@@ -876,6 +885,7 @@
         },
         {
             "name": "The Devil's Sooty Brother",
+            "name#zh": "魔鬼的邋遢兄弟",
             "dir": "the-devils-sooty-brother",
             "file": true,
             "data": {
@@ -886,6 +896,7 @@
         },
         {
             "name": "The Devil With the Three Golden Hairs",
+            "name#zh": "魔鬼的三根金发",
             "dir": "the-devil-with-the-three-golden-hairs",
             "file": true,
             "data": {
@@ -896,6 +907,7 @@
         },
         {
             "name": "The Ditmarsch Tale of Wonders",
+            "name#zh": "迪特马斯的奇谈怪论",
             "dir": "the-ditmarsch-tale-of-wonders",
             "file": true,
             "data": {
@@ -917,6 +929,7 @@
         },
         {
             "name": "The Donkey",
+            "name#zh": "小毛驴",
             "dir": "the-donkey",
             "file": true,
             "data": {
@@ -927,6 +940,7 @@
         },
         {
             "name": "The Drummer",
+            "name#zh": "鼓手",
             "dir": "the-drummer",
             "file": true,
             "data": {
@@ -937,6 +951,7 @@
         },
         {
             "name": "The Duration of Life",
+            "name#zh": "寿命",
             "dir": "the-duration-of-life",
             "file": true,
             "data": {
@@ -947,6 +962,7 @@
         },
         {
             "name": "The Ear of Corn",
+            "name#zh": "麦穗的故事",
             "dir": "the-ear-of-corn",
             "file": true,
             "data": {
@@ -957,6 +973,7 @@
         },
         {
             "name": "The Elves and The Shoemaker",
+            "name#zh": "两个神秘的小鞋匠",
             "dir": "the-elves-and-the-shoemaker",
             "file": true,
             "data": {
@@ -999,6 +1016,7 @@
         },
         {
             "name": "The Four Skilful Brothers",
+            "name#zh": "四个聪明的兄弟",
             "dir": "the-four-skilful-brothers",
             "file": true,
             "data": {
@@ -1081,6 +1099,7 @@
         },
         {
             "name": "The Girl Without Hands",
+            "name#zh": "没有收的姑娘",
             "dir": "the-girl-without-hands",
             "file": true,
             "data": {
@@ -1091,6 +1110,7 @@
         },
         {
             "name": "The Glass Coffin",
+            "name#zh": "水晶棺材",
             "dir": "the-glass-coffin",
             "file": true,
             "data": {
@@ -1101,6 +1121,7 @@
         },
         {
             "name": "The Gnome",
+            "name#zh": "土地神",
             "dir": "the-gnome",
             "file": true,
             "data": {
@@ -1261,6 +1282,7 @@
         },
         {
             "name": "The Iron Stove",
+            "name#zh": "铁炉",
             "dir": "the-iron-stove",
             "file": true,
             "data": {
@@ -1805,6 +1827,16 @@
             }
         },
         {
+            "name": "The Story of Blue Beard",
+            "name#zh": "蓝胡子",
+            "dir": "the-story-of-blue-beard",
+            "file": true,
+            "author": ["Charles Perrault"],
+            "data": {
+                "book": ["The Tales of Mother Goose, 1697"]
+            }
+        },
+        {
             "name": "The Story of Schlauraffen Land",
             "dir": "the-story-of-schlauraffen-land",
             "file": true,
@@ -2294,9 +2326,7 @@
             "file": true,
             "file#zh": "zh.md",
             "data": {
-                "book": [
-                    "Grimms's Fairy Tales, 1812"
-                ]
+                "book": ["Grimms's Fairy Tales, 1812"]
             }
         },
         {

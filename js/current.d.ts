@@ -13,5 +13,7 @@ declare namespace PageCtrl {
 }
 declare namespace PageCtrl {
     function updateMenu(): any;
-    function getAuthors(book: IBookInfo, refs: DeepX.MdBlogs.IContributorInfo[]): DeepX.MdBlogs.IContributorInfo[];
+    function getAuthors(book: IBookInfo, refs: DeepX.MdBlogs.IContributorInfo[], options?: {
+        mkt?: string | boolean;
+    }): DeepX.MdBlogs.IContributorInfo[];
 }

@@ -7,6 +7,7 @@ export function stories() {
             if (!ev) return;
             const article = ev.article;
             const model = ev.children;
+            const localeOptions = ev.mkt == null ? undefined : { mkt: ev.mkt };
             if (!article || !model) return;
             const books = formatBooks(article.data?.book, ev.defs("books"));
             const allAuthorsRefs: DeepX.MdBlogs.IContributorInfo[] = ev.defs("contributors");
@@ -19,7 +20,7 @@ export function stories() {
                     children: books.map(book => {
                         const li: Hje.DescriptionContract[] = [{
                             tagName: "span",
-                            children: DeepX.MdBlogs.getLocaleProp(book)
+                            children: DeepX.MdBlogs.getLocaleProp(book, null, localeOptions)
                         }];
                         if (book.year) li.push({
                             tagName: "span",
@@ -27,7 +28,7 @@ export function stories() {
                         });
                         const authors = getAuthors(book, allAuthorsRefs);
                         if (authors.length > 0) li.push(...authors.map(author => {
-                            return { tagName: "span", children: DeepX.MdBlogs.getLocaleProp(author) };
+                            return { tagName: "span", children: DeepX.MdBlogs.getLocaleProp(author, null, localeOptions) };
                         }));
                         return {
                             tagName: "li",

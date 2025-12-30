@@ -8,7 +8,9 @@ export function updateMenu() {
     return about;
 }
 
-export function getAuthors(book: IBookInfo, refs: DeepX.MdBlogs.IContributorInfo[]) {
+export function getAuthors(book: IBookInfo, refs: DeepX.MdBlogs.IContributorInfo[], options?: {
+    mkt?: string | boolean;
+}) {
     let author = book?.author;
     if (!author) return [];
     if (typeof author === "string") author = [author];
@@ -18,7 +20,7 @@ export function getAuthors(book: IBookInfo, refs: DeepX.MdBlogs.IContributorInfo
         if (typeof item === "string") {
             for (let i = 0; i < refs.length; i++) {
                 const ele = refs[i];
-                if (ele.name === item || DeepX.MdBlogs.getLocaleProp(ele) === item || ele.email === item) return ele;
+                if (ele.name === item || DeepX.MdBlogs.getLocaleProp(ele, null, options) === item || ele.email === item) return ele;
             }
 
             const pos = item.indexOf("@");
