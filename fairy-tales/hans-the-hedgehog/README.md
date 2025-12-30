@@ -1,4 +1,4 @@
-THERE was once a countryman who had money and land in plenty, but how rich
+There was once a countryman who had money and land in plenty, but how rich
 soever he was, one thing was still wanting in his happiness he had no
 children. Often when he went into the town with the other peasants they
 mocked him and asked why he had no children. At last he became angry,

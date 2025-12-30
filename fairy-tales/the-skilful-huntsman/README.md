@@ -1,4 +1,4 @@
-THERE was once a young fellow who had learnt the trade of locksmith,
+There was once a young fellow who had learnt the trade of locksmith,
 and told his father he would now go out into the world and seek his
 fortune. "Very well," said the father, "I am quite content with that,"
 and gave him some money for his journey. So he travelled about and looked

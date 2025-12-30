@@ -592,6 +592,7 @@
             "name#zh": "穿靴子的猫",
             "dir": "puss-in-boots",
             "file": true,
+            "file#zh": "zh.md",
             "author": ["Charles Perrault"],
             "data": {
                 "book": ["The Tales of Mother Goose, 1697"]
@@ -1132,6 +1133,7 @@
         },
         {
             "name": "The Godfather",
+            "name#zh": "神父",
             "dir": "the-godfather",
             "file": true,
             "data": {
@@ -1142,6 +1144,7 @@
         },
         {
             "name": "The Gold-Children",
+            "name#zh": "金娃娃",
             "dir": "the-gold-children",
             "file": true,
             "data": {
@@ -1152,6 +1155,7 @@
         },
         {
             "name": "The Golden Bird",
+            "name#zh": "金鸟",
             "dir": "the-golden-bird",
             "file": true,
             "data": {
@@ -1162,6 +1166,7 @@
         },
         {
             "name": "The Golden Goose",
+            "name#zh": "金鹅",
             "dir": "the-golden-goose",
             "file": true,
             "data": {
@@ -1172,6 +1177,7 @@
         },
         {
             "name": "The Golden Key",
+            "name#zh": "金钥匙",
             "dir": "the-golden-key",
             "file": true,
             "data": {
@@ -1192,6 +1198,7 @@
         },
         {
             "name": "The Goose-Girl",
+            "name#zh": "牧鹅姑娘",
             "dir": "the-goose-girl",
             "file": true,
             "data": {
@@ -1202,6 +1209,7 @@
         },
         {
             "name": "The Goose-Girl at the Well",
+            "name#zh": "井边的牧鹅女",
             "dir": "the-goose-girl-at-the-well",
             "file": true,
             "data": {
@@ -1212,6 +1220,7 @@
         },
         {
             "name": "The Grave-Mound",
+            "name#zh": "坟",
             "dir": "the-grave-mound",
             "file": true,
             "data": {
@@ -1222,6 +1231,7 @@
         },
         {
             "name": "The Griffin",
+            "name#zh": "怪鸟格莱弗",
             "dir": "the-griffin",
             "file": true,
             "data": {
@@ -1232,6 +1242,7 @@
         },
         {
             "name": "The Hare and the Hedgehog",
+            "name#zh": "兔子和刺猬",
             "dir": "the-hare-and-the-hedgehog",
             "file": true,
             "data": {
@@ -1242,6 +1253,7 @@
         },
         {
             "name": "The Hare's Bride",
+            "name#zh": "兔子新娘",
             "dir": "the-hares-bride",
             "file": true,
             "data": {
@@ -1252,6 +1264,7 @@
         },
         {
             "name": "The Hazel-Branch",
+            "name#zh": "榛树枝",
             "dir": "the-hazel-branch",
             "file": true,
             "data": {
@@ -1262,6 +1275,7 @@
         },
         {
             "name": "The Heavenly Wedding",
+            "name#zh": "天国的婚礼",
             "dir": "the-heavenly-wedding",
             "file": true,
             "data": {
@@ -1272,6 +1286,7 @@
         },
         {
             "name": "The Hut in the Forest",
+            "name#zh": "林中小屋",
             "dir": "the-hut-in-the-forest",
             "file": true,
             "data": {
@@ -1286,9 +1301,7 @@
             "dir": "the-iron-stove",
             "file": true,
             "data": {
-                "book": [
-                    "Grimms's Fairy Tales, 1812"
-                ]
+                "book": ["Grimms's Fairy Tales, 1812"]
             }
         },
         {

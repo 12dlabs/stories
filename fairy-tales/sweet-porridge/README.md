@@ -1,4 +1,4 @@
-THERE was a poor but good little girl who lived alone with her mother,
+There was a poor but good little girl who lived alone with her mother,
 and they no longer had anything to eat. So the child went into the
 forest, and there an aged woman met her who was aware of her sorrow,
 and presented her with a little pot, which when she said, "Cook, little

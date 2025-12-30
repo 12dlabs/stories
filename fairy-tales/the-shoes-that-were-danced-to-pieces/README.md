@@ -1,4 +1,4 @@
-THERE was once upon a time a King who had twelve daughters, each one
+There was once upon a time a King who had twelve daughters, each one
 more beautiful than the other. They all slept together in one chamber,
 in which their beds stood side by side, and every night when they were
 in them the King locked the door, and bolted it. But in the morning

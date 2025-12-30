@@ -1,4 +1,4 @@
-THERE was once upon a time an old Queen whose husband had been dead for
+There was once upon a time an old Queen whose husband had been dead for
 many years, and she had a beautiful daughter. When the princess grew up
 she was betrothed to a prince who lived at a great distance. When the time
 came for her to be married, and she had to journey forth into the distant

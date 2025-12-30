@@ -1,4 +1,4 @@
-THERE was once on a time a King who had a great forest near his palace,
+There was once on a time a King who had a great forest near his palace,
 full of all kinds of wild animals. One day he sent out a huntsman to shoot
 him a roe, but he did not come back. "Perhaps some accident has befallen
 him," said the King, and the next day he sent out two more huntsmen who

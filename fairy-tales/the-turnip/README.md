@@ -1,4 +1,4 @@
-THERE were once two brothers who both served as soldiers; one of them
+There were once two brothers who both served as soldiers; one of them
 was rich, and the other poor. Then the poor one, to escape from his
 poverty, put off his soldier's coat, and turned farmer. He dug and
 hoed his bit of land, and sowed it with turnip-seed. The seed came up,

@@ -1,4 +1,4 @@
-THERE was once a woman who had three daughters, the eldest of whom
+There was once a woman who had three daughters, the eldest of whom
 was called One-eye, because she had only one eye in the middle of her
 forehead, and the second, Two-eyes, because she had two eyes like other
 folks, and the youngest, Three-eyes, because she had three eyes; and her
