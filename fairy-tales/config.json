@@ -1,5 +1,5 @@
 {
-    "$schema": "https://cdn.jsdelivr.net/npm/hje@2.4.5/dist/mdblogs.schema.json",
+    "$schema": "https://cdn.jsdelivr.net/npm/hje@2.4.6/dist/mdblogs.schema.json",
     "name": "Fairy Tales",
     "name#zh": "童话故事",
     "docs": [
@@ -33,6 +33,7 @@
             "name#zh": "熊皮人",
             "dir": "bearskin",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -1028,8 +1029,10 @@
         },
         {
             "name": "The Fox and His Cousin",
+            "name#zh": "母狼高司普和狐狸",
             "dir": "the-fox-and-his-cousin",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -1038,6 +1041,7 @@
         },
         {
             "name": "The Fox and the Cat",
+            "name#zh": "狐狸和猫",
             "dir": "the-fox-and-the-cat",
             "file": true,
             "data": {
@@ -1048,6 +1052,7 @@
         },
         {
             "name": "The Fox and the Geese",
+            "name#zh": "狐狸和鹅群",
             "dir": "the-fox-and-the-geese",
             "file": true,
             "data": {
@@ -1058,6 +1063,7 @@
         },
         {
             "name": "The Fox and the Horse",
+            "name#zh": "狐狸和马",
             "dir": "the-fox-and-the-horse",
             "file": true,
             "data": {
@@ -1416,6 +1422,7 @@
         },
         {
             "name": "The Maid of Brakel",
+            "name#zh": "布拉克尔的少女",
             "dir": "the-maid-of-brakel",
             "file": true,
             "data": {
@@ -1426,8 +1433,11 @@
         },
         {
             "name": "The Master-Thief",
+            "name#de": "Der Meisterdieb",
+            "name#zh": "智者神偷",
             "dir": "the-master-thief",
             "file": true,
+            "file#zh": "zh.md",
             "data": {
                 "book": [
                     "Grimms's Fairy Tales, 1812"
@@ -1891,7 +1901,8 @@
         },
         {
             "name": "The Thief and his Master",
-            "name#zh": "智者神偷",
+            "name#de": "Der Gaudieb und sein Meister",
+            "name#zh": "骗子和他的师父",
             "dir": "the-thief-and-his-master",
             "file": true,
             "data": {
